@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+class Exam{
+	public static void main(String[] args)
+	{
+int number1;
+int number2;
+
+Scanner obj = new Scanner(System.in);
+number1=obj.nextInt();
+number2=obj.nextInt();
+
+System.out.println("add = " + number1 + number2);
+System.out.println("subtract = " + number1 - number2);
+System.out.println("multiply = " + number1 * number2);
+System.out.println("divide = " + number1 / number2);
+	}
+}
