@@ -1,0 +1,15 @@
+public class Main
+{
+    public static void main(String[] args) {
+        double result = quotient(10);
+        System.out.println();(result);
+    }
+    public static double quotient (double k) {
+    if (k > 0) {
+        return k * quotient(k-1);
+    }
+    else {
+        return 0;
+    }
+    }
+}
